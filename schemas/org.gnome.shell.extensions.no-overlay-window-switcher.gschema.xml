@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+    <schema id="org.gnome.shell.extensions.no-overlay-window-switcher"
+            path="/org/gnome/shell/extensions/no-overlay-window-switcher/">
+        <key name="switch-windows-direct" type="as">
+            <default><![CDATA[['<Alt>grave']]]></default>
+            <summary>Switch windows directly shortcut</summary>
+            <description>Keyboard shortcut to switch windows forward without popup</description>
+        </key>
+        <key name="switch-windows-direct-backward" type="as">
+            <default><![CDATA[['<Alt><Shift>grave']]]></default>
+            <summary>Switch windows directly backward shortcut</summary>
+            <description>Keyboard shortcut to switch windows backward without popup</description>
+        </key>
+        <key name="switch-windows-direct-super" type="as">
+            <default><![CDATA[['<Super>grave']]]></default>
+            <summary>Switch windows directly with Super shortcut</summary>
+            <description>Alternative keyboard shortcut to switch windows forward without popup</description>
+        </key>
+        <key name="switch-windows-direct-super-backward" type="as">
+            <default><![CDATA[['<Super><Shift>grave']]]></default>
+            <summary>Switch windows directly backward with Super shortcut</summary>
+            <description>Alternative keyboard shortcut to switch windows backward without popup</description>
+        </key>
+    </schema>
+</schemalist>

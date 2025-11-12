@@ -1,0 +1,7 @@
+{
+  "uuid": "no-overlay-window-switcher",
+  "name": "No Overlay Window Switcher",
+  "description": "Cycle windows of current application with no thumbnail overlay.",
+  "shell-version": ["45", "46", "47", "48"],
+  "version": 1
+}
