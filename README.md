@@ -9,7 +9,7 @@ point, you can enable the extension via the Extensions app (you may
 have to restart the Gnome Shell).
 
 ```console
-$ cp a ../no-overlay-window-switcher ~/.local/share/gnome-shell/extensions/
+$ cp -a ../no-overlay-window-switcher ~/.local/share/gnome-shell/extensions/
 $ glib-compile-schemas ~/.local/share/gnome-shell/extensions/no-overlay-window-switcher/schemas/
 ```
 
